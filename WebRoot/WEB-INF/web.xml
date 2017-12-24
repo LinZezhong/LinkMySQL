@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>testServlet</servlet-name>
+    <servlet-class>servlet.testServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>servlet.base.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registServlet</servlet-name>
+    <servlet-class>servlet.registServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>chanegUserInfoServlet</servlet-name>
+    <servlet-class>servlet.chanegUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getUserInfoServlet</servlet-name>
+    <servlet-class>servlet.getUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getOrgServlet</servlet-name>
+    <servlet-class>servlet.getOrgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrgApplyServlet</servlet-name>
+    <servlet-class>servlet.OrgApplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Org_Detail</servlet-name>
+    <servlet-class>servlet.Org_Detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>applyCommitServlet</servlet-name>
+    <servlet-class>servlet.applyCommitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getMyOrgServlet</servlet-name>
+    <servlet-class>servlet.getMyOrgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkDepartApplyServlet</servlet-name>
+    <servlet-class>servlet.checkDepartApplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>applyInfoServlet</servlet-name>
+    <servlet-class>servlet.applyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>submitResultServlet</servlet-name>
+    <servlet-class>servlet.submitResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getMyApplyServlet</servlet-name>
+    <servlet-class>servlet.getMyApplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getApplyResultServlet</servlet-name>
+    <servlet-class>servlet.getApplyResultServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/servlet/testServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/servlet/BaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registServlet</servlet-name>
+    <url-pattern>/servlet/registServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chanegUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/chanegUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getUserInfoServlet</servlet-name>
+    <url-pattern>/servlet/getUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getOrgServlet</servlet-name>
+    <url-pattern>/servlet/getOrgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrgApplyServlet</servlet-name>
+    <url-pattern>/servlet/OrgApplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Org_Detail</servlet-name>
+    <url-pattern>/servlet/Org_Detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>applyCommitServlet</servlet-name>
+    <url-pattern>/servlet/applyCommitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getMyOrgServlet</servlet-name>
+    <url-pattern>/servlet/getMyOrgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkDepartApplyServlet</servlet-name>
+    <url-pattern>/servlet/checkDepartApplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>applyInfoServlet</servlet-name>
+    <url-pattern>/servlet/applyInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>submitResultServlet</servlet-name>
+    <url-pattern>/servlet/submitResultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getMyApplyServlet</servlet-name>
+    <url-pattern>/servlet/getMyApplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getApplyResultServlet</servlet-name>
+    <url-pattern>/servlet/getApplyResultServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
